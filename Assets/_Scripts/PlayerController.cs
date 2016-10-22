@@ -1,4 +1,12 @@
-﻿using UnityEngine;
+﻿/*      File Name:              PlayerController.cs
+ *      Author's Name:          Jason Gunter
+ *      Last Modified By:       Jason Gunter
+ *      Date Last Modified:     Oct 22nd, 2016
+ *      Program Description:    A 2D scrolling game
+ *      File Description:       This script controls the player movement
+ *      Revision History:       https://github.com/jgunter7/COMP305_MIDTERM
+ */
+using UnityEngine;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {

@@ -1,4 +1,12 @@
-﻿using UnityEngine;
+﻿/*      File Name:              EnemyController.cs
+ *      Author's Name:          Jason Gunter
+ *      Last Modified By:       Jason Gunter
+ *      Date Last Modified:     Oct 22nd, 2016
+ *      Program Description:    A 2D scrolling game
+ *      File Description:       This script controls the enemy movement and actions
+ *      Revision History:       https://github.com/jgunter7/COMP305_MIDTERM
+ */
+using UnityEngine;
 using System.Collections;
 
 [System.Serializable]
@@ -52,7 +60,7 @@ public class EnemyController : MonoBehaviour {
 		gameObject.GetComponent<Transform> ().position = resetPosition;
 	}
 
-    private void OnCollisionEnter2D(Collision2D other) {
+    private void OnTriggerEnter2D(Collider2D other) {
         // RESET IF WE HIT THE PLAYER!! - jgunter
         if (other.gameObject.CompareTag("Player")) {
             this._Reset();

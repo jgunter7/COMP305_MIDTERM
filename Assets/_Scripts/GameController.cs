@@ -1,4 +1,12 @@
-﻿using UnityEngine;
+﻿/*      File Name:              GameController.cs
+ *      Author's Name:          Jason Gunter
+ *      Last Modified By:       Jason Gunter
+ *      Date Last Modified:     Oct 22nd, 2016
+ *      Program Description:    A 2D scrolling game
+ *      File Description:       This script controls the scoreboard and game over UI elements
+ *      Revision History:       https://github.com/jgunter7/COMP305_MIDTERM
+ */
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
@@ -85,6 +93,6 @@ public class GameController : MonoBehaviour {
     }
 
     public void RestartButton_Click() {
-        SceneManager.LoadScene("Play");
+        SceneManager.LoadScene("Main");
     }
 }
