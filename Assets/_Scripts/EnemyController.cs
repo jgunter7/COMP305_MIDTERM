@@ -1,5 +1,6 @@
 ﻿/*      File Name:              EnemyController.cs
  *      Author's Name:          Jason Gunter
+ *      Student Number          300742344
  *      Last Modified By:       Jason Gunter
  *      Date Last Modified:     Oct 22nd, 2016
  *      Program Description:    A 2D scrolling game
